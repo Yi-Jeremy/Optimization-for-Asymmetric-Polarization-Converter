@@ -81,7 +81,7 @@ class NanoEnv(gym.Env):
                                 -1,  # - Ha
                                 -1,  # - Hc
                                 -1,  # - Ka
-                                -0.001  # - index
+                                -0.01  # - index
                                 ]
 
         self.action_space = spaces.Discrete(len(self.action_in_state))  # 动作空间为2倍的状态空间
